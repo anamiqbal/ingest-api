@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Logs and OS noise
+server.log
+.DS_Store
+
+# Secrets — never commit these
+.env
